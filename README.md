@@ -3,4 +3,4 @@
 - This repo is a demo website used to demonstrate possible mutations of the MSTN gene at various residues.
 
 ## Link to website:
-Link found here: 
+Link found here: https://akiljames83.github.io/MSTN-GAN-Demo/
