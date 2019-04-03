@@ -17,3 +17,7 @@ button {
 p {
 	text-indent: 40px;
 }
+
+.body {
+	margin: 20 10px;
+}
