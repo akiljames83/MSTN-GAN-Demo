@@ -1,6 +1,6 @@
 image = document.querySelector("#image");
-prev = 0;
-cur = 0;
+prev = 1;
+cur = 1;
 
 const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
