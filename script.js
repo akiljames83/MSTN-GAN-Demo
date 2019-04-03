@@ -10,7 +10,7 @@ async function change_image() {
 	image.src = 'img/load_1.gif';
 
 	time = Math.floor(Math.random()*1500);
-	await sleep(1450);
+	await sleep(1300);
 
 	while(cur == prev)
 		cur = Math.floor(1+Math.random() * 12);
