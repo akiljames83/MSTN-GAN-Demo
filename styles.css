@@ -21,3 +21,13 @@ p {
 .body {
 	margin: 20 10px;
 }
+
+.footer li a {
+	color: red;
+	font-weight: bold;
+}
+
+.link:hover {
+	color: red;
+}
+
