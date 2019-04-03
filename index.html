@@ -44,9 +44,9 @@
         </div>
     </nav>
     <div class="container body">
-        <h2 class="heading mt-5 mb-3">MSTN Mutation via GAN - Demo</h2>
+        <h2 class="heading mt-3 mb-3">MSTN Mutation via GAN - Demo</h2>
         <p>
-            Through the use of comptational biology and machine learning algorithms, we aim to generate custom MSTN mutations that will result in improved myostatin inhibition to ultimately treat Muscle Atrophy using a CRISPR or phramalogical approach.
+            Through the use of comptational biology and machine learning algorithms, we aim to generate custom MSTN mutations that will result in improved myostatin inhibition to ultimately treat Muscle Atrophy using a CRISPR or a targted phramalogical approach.
         </p>
         <!-- <h2 class="mt-3 mb-3">Basic Mutation Generation Using PyMOL</h2> -->
         <center>
@@ -58,17 +58,17 @@
         </center>
         <h2 class="heading mt-5 mb-3">How Would the ML Algorithm Work?</h2>
         <p>
-            We use some fancy machine learning stuff that results in the stuff actually working !!
+            The input data passed into the network would be the 506 BP long sequence for the MSTN unmutated gene. The nucleotoides of this gene will be autoencoded using a hashing function instead of using a one-hot vector to reduce the dimenosionality of the problem. The input data is then convoled through the first set of layers of the Generative Adversarial Network (GAN) until it reaches the intermeidate layer. Following this, the discrimantor function is used to ensure that the current permutation of the Gene sequence is an improvement on the previous version. This process is repeated iteratively thousands of times so that each sequence generated after that point is unique and effective.
         </p>
         <center>
-            <img src="img/gan.png" style="width: 600px">
+            <img src="img/gan.png" class="gan mt-4 mb-4">
+            <div class="caption">
+            	<strong>Caption:</strong> Figure depicting the basic GAN Model structure. This is the architechture that will be used in creating the next portion of our project.
+            </div>
         </center>
-        <p>
-            Final points
-        </p>
         <h2 class="heading mt-5 mb-3">Conclusions</h2>
-        <p>
-            What we plan on doing in the future.
+        <p class="mb-5">
+            Currently, we are in the process of creating both the GAN Machine Learning Model as well as the custom discriminator function so as to determine an optimal mutated version of the MSTN gene. Following this, we plan on performing an <em>in vitro</em> study with the mutated gene to quantitatively asses whether or not the gene is able to inhibit myostatin production. Lastly, we aim to created a targeted phisiological approach with the information acquired from this gene in order to effectively treat Muscle Atrophy in patients.
         </p>
         <nav class="navbar navbar-expand-lg navbar-light  static-bottom" >
             <div class="container">

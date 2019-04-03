@@ -18,6 +18,8 @@ button {
 
 p {
 	text-indent: 40px;
+	text-align: justify;
+	line-height: 1.8em;
 }
 
 .body {
@@ -33,3 +35,13 @@ p {
 	color: red;
 }
 
+
+.caption {
+	width: 600px;
+	text-indent: none;
+	text-align: left;
+}
+
+.gan {
+	width: 600px;
+}
